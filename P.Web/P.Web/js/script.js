@@ -1,0 +1,16 @@
+$(document).ready(function(){
+	$('#muncul').click(function(){
+		$('.trans-bg-fb').show();
+	})
+	$('.trans-bg-fb').click(function(){
+		$('.trans-bg-fb').hide();
+	})
+})
+$(document).ready(function(){
+	$('#tampil').click(function(){
+		$('.trans-bg-google').show();
+	})
+	$('.trans-bg-google').click(function(){
+		$('.trans-bg-google').hide();
+	})
+})
